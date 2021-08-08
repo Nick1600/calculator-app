@@ -106,3 +106,28 @@ main {
 .del {
     grid-area: 1 / 4 / 2 / 5;
 }
+
+/*media queries*/
+@media only screen and (max-width: 990px) {
+    main {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    main {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    main {
+        width: 20%;
+    }
+}
